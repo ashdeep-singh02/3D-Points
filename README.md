@@ -1,7 +1,7 @@
-# Assignment 1 README.MD
+# 3D Points
 Ashdeep Singh
 
-CSCI 335
+CSCI 335 (Hunter College)
 
 Assignment 1 required us to implement a Points3D class (points3d.h). The class' main objective was to store a sequence of 3D points. The class contained a private data member named "sequence_", which was a pointer to an array on the heap. The elements of sequence_ themselves were of the type std::array<Object, 3>, which stored the actual point values. 
 

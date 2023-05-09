@@ -1,8 +1,6 @@
 # 3D Points
 Ashdeep Singh
 
-CSCI 335 (Hunter College)
-
 This project required us to implement a Points3D class (points3d.h). The class' main objective was to store a sequence of 3D points. The class contained a private data member named "sequence_", which was a pointer to an array on the heap. The elements of sequence_ themselves were of the type std::array<Object, 3>, which stored the actual point values. 
 
 In order to implement Points3D objects, we implemented the "Big 5", which consisted of the Copy-Constructor, Copy-Assignment, Move-Constructor, Move-Assignment, and Desctuctor. Along with thses constructors, the user had the option to utilize the one-parameter and/or zero-parameter constructors. 
